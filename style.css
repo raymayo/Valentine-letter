@@ -1,0 +1,145 @@
+*{border: red solid 1px}
+*{ overflow: hidden;}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+
+#twitter{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 5vh;
+    left: 44.65%;
+
+}
+
+#cloud{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40vh;
+    left: 44.65%;
+    z-index: 2;
+}
+
+#poem{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 75vh;
+    left: 44.65%;
+    z-index: 2;
+}
+
+#con1{
+    background-color: #FFB646;
+    display: flex;
+    justify-content: center;
+    height: 34vh;
+}
+
+#con2{
+background-color: #77DD77;
+display: flex;
+    justify-content: center;
+    height: 34vh;
+}
+
+#con3{
+background-color: #4DB2FF;
+display: flex;
+justify-content: center;
+height: 34vh;
+}
+
+
+#twitter{cursor: pointer;}
+
+#cloud{cursor: pointer;}
+
+#poem{cursor: pointer;}
+
+@media all and (max-width:376px){
+    #twitter{
+        position: absolute;
+        top: 60px;
+        left: 35%;
+        width: 30%;
+
+    }
+    
+    #cloud{
+        position: absolute;
+        top: 250px;
+        left: 35%;
+        width: 30%;
+
+    }
+
+    #poem{
+        position: absolute;
+        top: 460px;
+        left: 35%;
+        width: 30%;
+
+    }
+}
+
+#blueLetter{
+    width: 90%;
+    height: 62%;
+    background-color: #0C6BB3;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    border-radius: 25px;
+    opacity: 0;
+    z-index: 1;
+}
+
+#pinkLetter{
+    width: 90%;
+    height: 62%;
+    background-color: #DE78AB;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    border-radius: 25px;
+    opacity: 0;
+    z-index: 1;
+}
+
+#yellowLetter{
+    width: 90%;
+    height: 62%;
+    background-color: #FFB84D;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    border-radius: 25px;
+    opacity: 0;
+    z-index: 1;
+}
+
+p{
+    text-align: center;
+    font-family: 'Source Code Pro';
+    font-weight: 600;
+    font-size: 8px;
+    white-space: pre;
+    width: 80%;
+    margin: auto;
+}
+
+img{
+    width: 40%;
+}
