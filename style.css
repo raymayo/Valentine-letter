@@ -9,6 +9,7 @@ body{
 }
 
 #twitter{
+    -webkit-tap-highlight-color: transparent;
     width: 200px;
     height: 200px;
     display: flex;
@@ -21,6 +22,7 @@ body{
 }
 
 #cloud{
+    -webkit-tap-highlight-color: transparent;
     width: 200px;
     height: 200px;
     display: flex;
@@ -32,6 +34,7 @@ body{
 }
 
 #poem{
+    -webkit-tap-highlight-color: transparent;
     width: 200px;
     height: 200px;
     display: flex;
