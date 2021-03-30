@@ -10,12 +10,12 @@ body{
 
 #twitter{
     -webkit-tap-highlight-color: transparent;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    max-width: 200px;
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5vh;
+    top: 7%;
     left: 44.65%;
     z-index: 2;
 
@@ -23,24 +23,24 @@ body{
 
 #cloud{
     -webkit-tap-highlight-color: transparent;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    max-width: 200px;
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 40vh;
+    top: 43%;
     left: 44.65%;
     z-index: 2;
 }
 
 #poem{
     -webkit-tap-highlight-color: transparent;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    max-width: 200px;
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 75vh;
+    top: 74%;
     left: 44.65%;
     z-index: 2;
 }
@@ -76,25 +76,25 @@ height: 34vh;
 @media all and (max-width:376px){
     #twitter{
         position: absolute;
-        top: 60px;
-        left: 35%;
-        width: 30%;
+        top: 7%;
+        left: 30%;
+        width: 40%;
 
     }
     
     #cloud{
         position: absolute;
-        top: 250px;
-        left: 35%;
-        width: 30%;
+        top: 43%;
+        left: 30%;
+        width: 40%;
 
     }
 
     #poem{
         position: absolute;
-        top: 460px;
-        left: 35%;
-        width: 30%;
+        top: 74%;
+        left: 30%;
+        width: 40%;
 
     }
 }
