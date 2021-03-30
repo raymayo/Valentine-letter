@@ -1,4 +1,4 @@
-/* *{border: red solid 1px} */
+*{border: red solid 1px}
 *{ overflow: hidden;}
 
 body{
@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content: center;
     top: 7%;
-    z-index: 2;
+    z-index: 3;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -33,7 +33,7 @@ body{
     display: flex;
     justify-content: center;
     top: 43%;
-    z-index: 2;
+    z-index: 3;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +49,7 @@ body{
     display: flex;
     justify-content: center;
     top: 74%;
-    z-index: 2;
+    z-index: 3;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -80,29 +80,29 @@ height: 34vh;
 }
 
 #blueLetter{
-    width: 30%;
-    height: 65%;
+    width: 40%;
+    height: 90%;
     background-color: #0C6BB3;
     position: absolute;
-    top: 30%;
+    top: 5%;
     border-radius: 25px;
     left:0;
     right: 0;
-    margin-left: auto;
+    margin: auto;
     text-align: center;
     justify-content: center;
-    margin-right: auto;
     border-radius: 25px;
     opacity: 0;
-    z-index: 1;
+    z-index: 2;
+    display: none;
 }
 
 #pinkLetter{
-    width: 30%;
-    height: 65%;
+    width: 40%;
+    height: 90%;
     background-color: #DE78AB;
     position: absolute;
-    top: 30%;
+    top: 5%;
     border-radius: 25px;
     left:0;
     right: 0;
@@ -112,15 +112,17 @@ height: 34vh;
     margin-right: auto;
     border-radius: 25px;
     opacity: 0;
-    z-index: 1;
+    z-index: 2;
+    display: none;
+    
 }
 
 #yellowLetter{
-    width: 30%;
-    height: 65%;
+    width: 40%;
+    height: 90%;
     background-color: #FFB84D;
     position: absolute;
-    top: 30%;
+    top: 5%;
     left:0;
     right: 0;
     margin-left: auto;
@@ -129,18 +131,78 @@ height: 34vh;
     margin-right: auto;
     border-radius: 25px;
     opacity: 0;
-    z-index: 1;
+    z-index: 2;
+    display: none;
 }
 
+#tweet{
+    width: 100%;
+    height: auto;
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5%;
+}
+
+#blueBtn{
+    -webkit-tap-highlight-color: transparent;
+    width: 5%;
+    min-width: 5%;
+    z-index: 3;
+    position: absolute;
+    top: 5%;
+    left: 92%;
+}
+
+#yellowBtn{
+    -webkit-tap-highlight-color: transparent;
+    width: 5%;
+    min-width: 5%;
+    z-index: 3;
+    position: absolute;
+    top: 1%;
+    left: 94%;
+
+}
+
+#greenBtn{
+    -webkit-tap-highlight-color: transparent;
+    width: 5%;
+    min-width: 5%;
+    z-index: 2;
+    position: absolute;
+    top: 2%;
+    left: 92%;
+
+}
+
+#yellowBtn:active{
+    transform: translateY(2px);
+}
+#greenBtn:active{
+    transform: translateY(2px);
+}
+#yellowBtn:active{
+    transform: translateY(2px);
+}
 
 
 
 
 #twitter{cursor: pointer;}
-
 #cloud{cursor: pointer;}
-
 #poem{cursor: pointer;}
+
+
+
+
+
+
+
+
 
 @media all and (max-width:376px){
     #twitter{
@@ -174,6 +236,33 @@ height: 34vh;
 
 #yellowLetter{
     width: 90%;
+}
+
+#yellowBtn{
+    top: 90%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 10%;
+}
+
+#blueBtn{
+    top: 90%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 10%;
+}
+
+#greenBtn{
+    top: 90%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 10%;
 }
 
 p{
