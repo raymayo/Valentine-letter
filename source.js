@@ -64,10 +64,11 @@ yellowBtn.addEventListener("click", function(){
     gsap.to("#poem", { duration: 3, y: 0, ease: "expo.inOut", delay:-0.2});
     gsap.to("#blueLetter", {duration:1,  opacity:0, ease:"power4.out",});
     gsap.to("#blueLetter", {duration:1,  display:"none", ease:"power4.out",});
-    gsap.to("#twitter", {duration:1.3,opacity:1,cursor: "pointer", ease:"expo.out", delay:1});
+    gsap.to("#twitter", {duration:1.3,opacity:1,cursor: "pointer", ease:"expo.out", delay:1.3});
     document.getElementById("yellowBtn").style.cursor = "default";
     document.getElementById("yellowBtn").style.display = "none";
     document.getElementById("twitter").style.pointerEvents = "auto";
+    
 })
 
 
@@ -78,8 +79,8 @@ cloud.addEventListener("click", function () {
     clickState2 = 1;
     gsap.to("#con1", { duration: 1.5, height: 0, ease: "expo.inOut" });
     gsap.to("#con2", { duration: 1.5, height: "110vh", ease: "expo.inOut" });
-    gsap.to("#twitter", { duration: 1.2, y: "-30vh", ease: "expo.inOut", });
-    gsap.to("#poem", { duration: 1.2, y: "30vh", ease: "expo.inOut", });
+    gsap.to("#twitter", { duration: 2, y: "-30vh", ease: "expo.inOut",delay:-.5 });
+    gsap.to("#poem", { duration: 2, y: "30vh", ease: "expo.inOut",delay:-.5 });
     gsap.to("#cloud", { duration: 2, opacity:0, ease: "expo.inOut", delay: -0.3 });
     gsap.to("#pinkLetter", {duration:1, opacity:"1" ,ease:"power4.out", delay:1})
     document.getElementById("greenBtn").style.cursor = "pointer";
@@ -96,7 +97,7 @@ greenBtn.addEventListener("click", function(){
   gsap.to("#con2", { duration: 1.5, height: "34vh", ease: "expo.inOut" });
   gsap.to("#twitter", {duration: 3, y: 0, ease: "expo.inOut",delay:-.28});
   gsap.to("#poem", { duration: 3, y: 0, ease: "expo.inOut", delay:-.28});
-  gsap.to("#cloud", { duration: 2, opacity:1, ease: "expo.inOut", delay: -.1 });
+  gsap.to("#cloud", { duration: 2, opacity:1, ease: "expo.inOut", delay: .5 });
   gsap.to("#pinkLetter", {duration:1,  opacity:0, ease:"power4.out"});
   gsap.to("#pinkLetter", {duration:1,  display:"none", ease:"power4.out"});
   document.getElementById("greenBtn").style.cursor = "default";
@@ -120,19 +121,24 @@ poem.addEventListener("click", function () {
     document.getElementById("yellowLetter").style.display = "flex"
     document.getElementById("blueBtn").style.display = "flex";
     document.getElementById("poem").style.pointerEvents = "none";
-    
+    document.getElementById("cloud").style.pointerEvents = "none"
 
 });
 
+let blueBtn = document.getElementById("blueBtn");
 
+blueBtn.addEventListener("click", function(){
 con3.style.height = "110vh";
     clickState3 = 0;
     gsap.to("#con1", { duration: 1.7, height: "34vh", ease: "expo.inOut",});
     gsap.to("#con2", { duration: 1.7, height: "34vh", ease: "expo.inOut",});
     gsap.to("#cloud", { duration: 1.7, y: 0, ease: "expo.inOut",});
     gsap.to("#twitter", {duration: 1.7, y: 0, ease: "expo.inOut",});
-    gsap.to("#poem", {duration: 1.7, y: 0, ease: "expo.inOut",});
+    gsap.to("#poem", {duration: 1.7, opacity:1, ease: "expo.inOut",delay:.3});
     gsap.to("#yellowLetter", {duration:1,  opacity:0, ease:"power4.out"})
+    gsap.to("#yellowLetter", {duration:1,  display:"none", ease:"power4.out"})
     document.getElementById("blueBtn").style.cursor = "default";
     document.getElementById("blueBtn").style.display = "none";
     document.getElementById("poem").style.pointerEvents = "auto";
+    document.getElementById("cloud").style.pointerEvents = "auto"
+})
