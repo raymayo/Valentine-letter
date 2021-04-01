@@ -26,18 +26,6 @@ var poemAnim = bodymovin.loadAnimation({
   path: "icons/poem.json",
 });
 
-// document.getElementById('twitter').addEventListener('click', function(){
-// if (con1.style.height !== "100%"){
-//     console.log(3);
-// con1.style.height = "100vh";
-// } else if (con1.stye.height >= "100%"){
-//     console.log(1)
-// }
-
-// //     con1.style.height = "100vh";
-// // con1.stlye.background = "#FFB646"
-
-// })
 
 var clickState1 = 0;
 let con1 = document.getElementById("con1");
@@ -112,7 +100,7 @@ poem.addEventListener("click", function () {
     clickState3 = 1;
     gsap.to("#con1", { duration: 1.7, height: 0, ease: "expo.inOut",});
     gsap.to("#con2", { duration: 1.7, height: 0, ease: "expo.inOut",});
-    gsap.to("#con3", { duration: 0.05, height: "100vh", ease: "none",});
+    gsap.to("#con3", { duration: 1.7, height: "100vh", ease: "expo.inOut",});
     gsap.to("#cloud", { duration: 1.7, y: "-60vh", ease: "expo.inOut", });
     gsap.to("#twitter", {duration: 1.7, y: "-35vh", ease: "expo.inOut",});
     gsap.to("#poem", {duration: 1.7, opacity:0, ease: "expo.inOut",});
@@ -126,7 +114,6 @@ poem.addEventListener("click", function () {
 });
 
 let blueBtn = document.getElementById("blueBtn");
-
 blueBtn.addEventListener("click", function(){
 con3.style.height = "110vh";
     clickState3 = 0;
@@ -134,7 +121,8 @@ con3.style.height = "110vh";
     gsap.to("#con2", { duration: 1.7, height: "34vh", ease: "expo.inOut",});
     gsap.to("#cloud", { duration: 1.7, y: 0, ease: "expo.inOut",});
     gsap.to("#twitter", {duration: 1.7, y: 0, ease: "expo.inOut",});
-    gsap.to("#poem", {duration: 1.7, opacity:1, ease: "expo.inOut",delay:.3});
+    gsap.to("#poem", {duration: 1.7, opacity:1, ease: "expo.inOut",delay:.5});
+    gsap.to("#con3", { duration: 1.7, height: "34vh", ease: "expo.inOut",});
     gsap.to("#yellowLetter", {duration:1,  opacity:0, ease:"power4.out"})
     gsap.to("#yellowLetter", {duration:1,  display:"none", ease:"power4.out"})
     document.getElementById("blueBtn").style.cursor = "default";

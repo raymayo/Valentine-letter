@@ -9,19 +9,15 @@ body{
 }
 
 
+
 #twitter{
     -webkit-tap-highlight-color: transparent;
     width: 100%;
     max-width: 200px;
     display: flex;
     justify-content: center;
-    top: 7%;
     z-index: 3;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+    margin: auto;
     text-align: center;
 
 }
@@ -32,13 +28,8 @@ body{
     max-width: 200px;
     display: flex;
     justify-content: center;
-    top: 43%;
     z-index: 3;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+    margin: auto;
     text-align: center;
 }
 
@@ -48,13 +39,8 @@ body{
     max-width: 200px;
     display: flex;
     justify-content: center;
-    top: 74%;
     z-index: 3;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+    margin: auto;
     text-align: center;
 }
 
@@ -153,8 +139,8 @@ height: 34vh;
     min-width: 5%;
     z-index: 3;
     position: absolute;
-    top: 5%;
-    left: 92%;
+    top: 1%;
+    left: 94%;
 }
 
 #yellowBtn{
@@ -174,19 +160,19 @@ height: 34vh;
     min-width: 5%;
     z-index: 3;
     position: absolute;
-    top: 2%;
-    left: 92%;
+    top: 1%;
+    left: 94%;
 
 }
 
 #yellowBtn:active{
-    transform: translateY(2px);
+    transform: translateY(3px);
 }
 #greenBtn:active{
-    transform: translateY(2px);
+    transform: translateY(3px);
 }
 #blueBtn:active{
-    transform: translateY(2px);
+    transform: translateY(3px);
 }
 
 
@@ -202,26 +188,51 @@ height: 34vh;
 
 
 
+@media all and (max-width:1600px){
+  #blueLetter{
+      width: 80%;
+  }
 
+  #pinkLetter{
+    width: 80%;
+}
 
-@media all and (max-width:376px){
+#yellowLetter{
+    width: 80%;
+}
+
+#yellowBtn{
+    width: 20px;
+    left: 92%;
+    top:2%;
+}
+
+#greenBtn{
+    width: 20px;
+    left: 92%;
+    top:2%;
+}
+
+#blueBtn{
+    width: 20px;
+    left: 92%;
+    top:2%;
+}
+
+}
+
+@media all and (max-width:600px){
     #twitter{
-        position: absolute;
-        top: 7%;
         width: 40%;
 
     }
     
     #cloud{
-        position: absolute;
-        top: 43%;
         width: 40%;
 
     }
 
     #poem{
-        position: absolute;
-        top: 80%;
         width: 40%;
 
     }
@@ -244,7 +255,7 @@ height: 34vh;
     right: 0;
     margin-right: auto;
     margin-left: auto;
-    width: 10%;
+    width: 12%;
 }
 
 #blueBtn{
@@ -253,7 +264,7 @@ height: 34vh;
     right: 0;
     margin-right: auto;
     margin-left: auto;
-    width: 10%;
+    width: 12%;
 }
 
 #greenBtn{
@@ -262,7 +273,7 @@ height: 34vh;
     right: 0;
     margin-right: auto;
     margin-left: auto;
-    width: 10%;
+    width: 12%;
 }
 
 p{
