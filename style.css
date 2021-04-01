@@ -207,21 +207,21 @@ height: 34vh;
 @media all and (max-width:376px){
     #twitter{
         position: absolute;
-        top: 5%;
+        top: 7%;
         width: 40%;
 
     }
     
     #cloud{
         position: absolute;
-        top: 40%;
+        top: 43%;
         width: 40%;
 
     }
 
     #poem{
         position: absolute;
-        top: 73%;
+        top: 74%;
         width: 40%;
 
     }
