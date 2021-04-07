@@ -133,6 +133,8 @@ height: 34vh;
     top: 5%;
 }
 
+
+
 #blueBtn{
     -webkit-tap-highlight-color: transparent;
     width: 5%;
@@ -181,6 +183,50 @@ height: 34vh;
 #twitter{cursor: pointer;}
 #cloud{cursor: pointer;}
 #poem{cursor: pointer;}
+
+.para1{
+    position: absolute;
+    top: 32%;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    font-size: 21px;
+    color: #052B3A;
+}
+
+.para2{
+    position: absolute;
+    top: 47%;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    font-size: 20px;
+    color: #772552;
+}
+
+.para3{
+    position: absolute;
+    top: 45%;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    font-size: 20px;
+    color: #683600;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+#dagat{
+    width: auto;
+    height: 35%;
+    margin-top: 10%;
+}
+
+#pres{
+    width: auto;
+    height: 40%;
+    margin-top: 5%;
+    border-radius: 10%;
+}
 
 
 
@@ -276,17 +322,33 @@ height: 34vh;
     width: 12%;
 }
 
-p{
-    text-align: center;
-    font-family: 'Source Code Pro';
-    font-weight: 600;
-    font-size: 8px;
-    white-space: pre;
-    width: 80%;
-    margin: auto;
+.para1{
+    top: 20%;
+    font-size: 14px;
+    padding: 5%;
 }
 
-img{
-    width: 40%;
+#dagat{
+    height: 25%;
 }
+
+
+.para2{
+    font-size: 12.8px;
+    top: 29%;
+    padding: 3%;
+}
+
+.para3{
+    font-size: 11px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
+
+
+
 }
