@@ -191,6 +191,8 @@ height: 34vh;
     font-weight: 900;
     font-size: 21px;
     color: #052B3A;
+    text-align: center;
+    
 }
 
 .para2{
@@ -200,6 +202,7 @@ height: 34vh;
     font-weight: 900;
     font-size: 20px;
     color: #772552;
+    text-align: center;
 }
 
 .para3{
@@ -324,7 +327,7 @@ height: 34vh;
 
 .para1{
     top: 20%;
-    font-size: 14px;
+    font-size: 10px;
     padding: 5%;
 }
 
@@ -334,13 +337,13 @@ height: 34vh;
 
 
 .para2{
-    font-size: 12.8px;
+    font-size: 10px;
     top: 29%;
     padding: 3%;
 }
 
 .para3{
-    font-size: 11px;
+    font-size: 9.5px;
     padding-left: 5%;
     padding-right: 5%;
 }
