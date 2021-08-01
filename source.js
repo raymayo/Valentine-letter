@@ -1,7 +1,9 @@
+//Lottie Files
 let twitter = document.querySelector("#twitter");
 let cloud = document.querySelector("#cloud");
 let poem = document.querySelector("#poem");
 
+//Animation Init
 var twitterAnim = bodymovin.loadAnimation({
   container: twitter,
   renderer: "svg",
@@ -26,7 +28,7 @@ var poemAnim = bodymovin.loadAnimation({
   path: "icons/poem.json",
 });
 
-
+//Animations
 var clickState1 = 0;
 let con1 = document.getElementById("con1");
 twitter.addEventListener("click", function () {

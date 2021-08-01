@@ -7,9 +7,7 @@ body{
     padding: 0;
     flex-direction: row;
 }
-
-
-
+/* Lottie Files */
 #twitter{
     -webkit-tap-highlight-color: transparent;
     width: 100%;
@@ -43,7 +41,7 @@ body{
     margin: auto;
     text-align: center;
 }
-
+/* Containers */
 #con1{
     background-color: #FFB646;
     display: flex;
@@ -65,6 +63,7 @@ justify-content: center;
 height: 34vh;
 }
 
+/* Letter-Container */
 #blueLetter{
     width: 40%;
     height: 90%;
@@ -134,7 +133,7 @@ height: 34vh;
 }
 
 
-
+/* Exit Buttons */
 #blueBtn{
     -webkit-tap-highlight-color: transparent;
     width: 5%;
@@ -184,6 +183,8 @@ height: 34vh;
 #cloud{cursor: pointer;}
 #poem{cursor: pointer;}
 
+
+/* Paragraph */
 .para1{
     position: absolute;
     top: 32%;
@@ -217,7 +218,7 @@ height: 34vh;
     padding-right: 5%;
 }
 
-
+/* Images */
 #dagat{
     width: auto;
     height: 35%;
@@ -236,7 +237,7 @@ height: 34vh;
 
 
 
-
+/* MediaQueries */
 @media all and (max-width:1600px){
   #blueLetter{
       width: 80%;
